@@ -1,0 +1,29 @@
+/*
+ * tipedata
+ */
+    public static void main(String[] args) {
+        String negara = "Indonesia";
+        short jmlProv = 138;
+
+        System.out.println("Halo " + negara);
+        System.out.println("Jumlah provinsi anda adalah " + jmlProv);
+    }
+
+/*
+ * Luas persegi
+ */
+    public static void main(String[] args) {
+        int sisi = 3;
+        int luas = sisi * sisi;
+        System.out.println("Luas persegi : " + luas);
+    }
+
+/*
+ * Luas segitiga
+ */
+    public static void main(String[] args) {
+        int alas = 7;
+        int tinggi = 3;
+        double luas = (double)1/2 * alas * tinggi;
+        System.out.println(luas);
+    }
